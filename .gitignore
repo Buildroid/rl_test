@@ -36,9 +36,7 @@ docker/
 !.vscode
 
 # Outputs
-**/output/*
-**/outputs/*
-**/videos/*
+
 **/wandb/*
 **/.neptune/*
 docker/artifacts/
@@ -56,7 +54,6 @@ _build
 
 # RL-Games
 **/runs/*
-**/logs/*
 **/recordings/*
 
 # Pre-Trained Checkpoints
@@ -72,5 +69,31 @@ tests/
 .isaac-lab-docker-history
 
 
-source/
+# Costom
+apps/
+docs/
+materials/
+scripts/
+
+
+source/isaaclab/
+source/isaaclab/_mimic/
+source/isaaclab/_rl/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/loco_manipulation/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/manipulation/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/navigation/
+
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/a1/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/anymal_b/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/anymal_c/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/anymal_d/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/cassie/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/digit/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/go1/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/go2/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/g1/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/h1/
+source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/config/spot/
+
 
